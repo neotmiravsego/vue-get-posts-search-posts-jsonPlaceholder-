@@ -46,7 +46,7 @@ export default {
         return;
       }
       this.filteredPosts = this.posts.filter((el) => {
-        return el.user.name.includes(this.search);
+        return el.user.name.toLowerCase().includes(this.search);
       });
     },
     getData() {
