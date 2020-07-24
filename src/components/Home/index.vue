@@ -81,6 +81,15 @@ export default {
   mounted() {
     this.getData();
   },
+  // computed: {
+  // Вижу 2 Реализации без кнопки и сразу искать при вводе какого-либо текста
+  // filterArray - заменяем на итерируемый массив в V-for в post-list__item
+  //     filterArray() {
+  //     return this.filteredPosts = this.posts.filter((el) => {
+  //       return el.user.name.includes(this.search);
+  //     });
+  //   },
+  // }
 };
 </script>
 
